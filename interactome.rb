@@ -36,6 +36,9 @@ class Network_PPI
 	end
 
 	
+	def test_1
+	end
+	
 	def sub_network(node_list,type="query")
 		query_node = {}
 		case node_list
