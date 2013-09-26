@@ -34,6 +34,7 @@ class Network_PPI
 			@node.each { |k,v| fout.puts k }
 		end
 	end
+
 	
 	def sub_network(node_list,type="query")
 		query_node = {}
